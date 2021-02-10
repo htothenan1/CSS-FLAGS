@@ -1,0 +1,318 @@
+h1, h2  {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#italy {
+    display: inline-flex;
+    margin: auto;
+    height: 200px;
+    width: 370px;
+    flex-direction: row;
+    border: black 1px solid;
+}
+
+#italy_box1 {
+    background-color: #008c45;
+    width: 33.3333333%;
+}
+
+#italy_box2 {
+    background-color: #f4f5f0;
+    width: 33.3333333%;
+}
+
+#italy_box3 {
+    background-color: #cd212a;
+    width: 33.333333%;
+}
+
+#germany {
+    margin: auto;
+    display: inline-flex;
+    height: 200px;
+    width: 370px;
+    flex-direction: column;
+    border: black 1px solid;
+}
+
+#germany_box1 {
+    background-color: black;
+    height: 33.333333%;
+}
+
+#germany_box2 {
+    background-color: #DA291C;
+    height: 33.333333%;
+}
+
+#germany_box3 {
+    background-color: #FFCD00;
+    height: 33.333333%;
+}
+
+#colombia {
+    margin: auto;
+    display: inline-flex;
+    height: 200px;
+    width: 370px;
+    flex-direction: column;
+    border: black 1px solid;
+}
+
+#colombia_box1 {
+    background-color: #FFCD00;
+    height: 50%;
+}
+
+#colombia_box2 {
+    background-color: #003087;
+    height: 25%;
+}
+
+#colombia_box3 {
+    background-color: #C8102E;
+    height: 25%;
+}
+
+#mexico {
+    margin: auto;
+    display: inline-flex;
+    height: 200px;
+    width: 370px;
+    flex-direction: row;
+    border: black 1px solid;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#mexico_box1 {
+    background-color: #006341;
+    width: 33.333333%;
+}
+
+#mexico_box2 {
+    background-color: white;
+    width: 33.333333%;
+}
+
+#mexico_box3 {
+    background-color: #C8102E;
+    width: 33.333333%;
+}
+
+#emblem {
+    margin-top: 60px;
+    margin-left: 15px;
+    width: 90px;
+    height: 90px;
+}
+
+#japan {
+    margin: auto;
+    display: inline-flex;
+    height: 200px;
+    width: 370px;
+    flex-direction: row;
+    border: black 1px solid;
+}
+
+#red_circle {
+    margin-top: 40px;
+    margin-left: 125px;
+    background-color: #EF3340;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+#france {
+    display: inline-flex;
+    margin: auto;
+    height: 200px;
+    width: 370px;
+    flex-direction: row;
+    border: black 1px solid;
+}
+
+#france_box1 {
+    background-color: #0055A4;
+    width: 33.3333333%;
+}
+
+#france_box2 {
+    background-color: #f4f5f0;
+    width: 33.3333333%;
+}
+
+#france_box3 {
+    background-color: #EF4135;
+    width: 33.333333%;
+}
+
+#belgium {
+    display: inline-flex;
+    margin: auto;
+    height: 200px;
+    width: 370px;
+    flex-direction: row;
+    border: black 1px solid;
+}
+
+#belgium_box1 {
+    background-color: black;
+    width: 33.3333333%;
+}
+
+#belgium_box2 {
+    background-color: #C8102E;
+    width: 33.3333333%;
+}
+
+#belgium_box3 {
+    background-color: #FFCD00;
+    width: 33.333333%;
+}
+
+#armenia {
+    margin: auto;
+    display: inline-flex;
+    height: 200px;
+    width: 370px;
+    flex-direction: column;
+    border: black 1px solid;
+}
+
+#armenia_box1 {
+    background-color: #DA291C;
+    height: 33.333333%;
+}
+
+#armenia_box2 {
+    background-color: #0033A0;
+    height: 33.333333%;
+}
+
+#armenia_box3 {
+    background-color: #FF9E1B;
+    height: 33.333333%;
+}
+
+#austria {
+    margin: auto;
+    display: inline-flex;
+    height: 200px;
+    width: 370px;
+    flex-direction: column;
+    border: black 1px solid;
+}
+
+#austria_box1 {
+    background-color: #EF3340;
+    height: 33.333333%;
+}
+
+#austria_box2 {
+    background-color: white;
+    height: 33.333333%;
+}
+
+#austria_box3 {
+    background-color:#EF3340;
+    height: 33.5%;
+}
+
+#argentina {
+    margin: auto;
+    display: inline-flex;
+    height: 200px;
+    width: 370px;
+    flex-direction: column;
+    border: black 1px solid;
+}
+
+#argentina_box1 {
+    background-color:#6CACE4;
+    height: 33.333333%;
+}
+
+#argentina_box2 {
+    background-color: white;
+    height: 33.333333%;
+}
+
+#argentina_box3 {
+    background-color:#6CACE4;
+    height: 33.5%;
+}
+
+#argentina_sun {
+    margin-top: 5px;
+    margin-left: 155px;
+    width: 60px;
+    height: 60px;
+}
+
+#bangladesh {
+    background-color: #006747;
+    margin: auto;
+    display: inline-flex;
+    height: 200px;
+    width: 370px;
+    flex-direction: row;
+    border: black 1px solid;
+}
+
+#orange_circle {
+    margin-top: 40px;
+    margin-left: 110px;
+    background-color: #DA291C;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+#botswana {
+    margin: auto;
+    display: inline-flex;
+    height: 200px;
+    width: 370px;
+    flex-direction: column;
+    border: black 1px solid;
+}
+
+#botswana_box1 {
+    background-color: #75AADB;
+    height: 38%;
+}
+
+#botswana_box2 {
+    background-color: white;
+    height: 4%;
+}
+
+#botswana_box3 {
+    background-color: black;
+    height: 16%;
+}
+
+#botswana_box4 {
+    background-color: white;
+    height: 4%;
+}
+
+#botswana_box5 {
+    background-color:#75AADB;
+    height: 38%;
+}
+
+#group1, #group2, #group3 {
+    display: inline-block;
+    margin-left: 75px;
+}
+
